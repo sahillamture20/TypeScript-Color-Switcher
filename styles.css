@@ -73,12 +73,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+
 h1,
 h2,
 h3,
@@ -101,10 +96,7 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
-}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -130,16 +122,6 @@ p {
 }
 /*  global classes */
 
-/* section */
-.section {
-  padding: 5rem 0;
-}
-
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -151,44 +133,6 @@ main {
   place-items: center;
 }
 
-/*
-=============== 
-Nav
-===============
-*/
-nav {
-  background: var(--clr-white);
-  height: 3rem;
-  display: grid;
-  align-items: center;
-  box-shadow: var(--dark-shadow);
-}
-.nav-center {
-  width: 90vw;
-  max-width: var(--fixed-width);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-center h4 {
-  margin-bottom: 0;
-  color: var(--clr-primary-5);
-}
-.nav-links {
-  display: flex;
-}
-nav a {
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--clr-primary-1);
-  letter-spacing: var(--spacing);
-  margin-right: 1rem;
-}
-nav a:hover {
-  color: var(--clr-primary-5);
-}
 /*
 =============== 
 Container
